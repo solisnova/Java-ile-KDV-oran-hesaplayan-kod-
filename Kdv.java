@@ -15,7 +15,7 @@ public class Kdv {
     double sonuc = (fiyat < 1000 && fiyat > 0) ? ((fiyat*18)/100) : ((fiyat*8)/100);
     System.out.println("satın aldığınız ürünün fiyatı : " + fiyat);
     System.out.println("KDV tutarınız :" + sonuc);
-    System.out.println("Ürünün KDV'siz fiyatı: " + (fiyat-sonuc));
+    System.out.println("Ürünün KDV eklenmiş fiyatı: " + (fiyat+sonuc));
 
 
     
